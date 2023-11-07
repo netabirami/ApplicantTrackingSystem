@@ -26,7 +26,6 @@ public class HRM {
             Recruiter recruiter1 = new Recruiter("Recruiter Name");
             
 
-            // Add entities to the HRSystem
             HRSystem hrSystem = new HRSystem();
             hrSystem.addApplicant(applicant1);
             hrSystem.addJobPosition(jobPosition1);

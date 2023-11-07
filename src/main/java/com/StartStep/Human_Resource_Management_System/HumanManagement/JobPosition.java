@@ -39,7 +39,6 @@ public class JobPosition {
         return (applicant.getExpectedSalary() >= offeredSalaryRangeStart) && (applicant.getExpectedSalary() <= offeredSalaryRangeEnd);
     }
 
-    // Getters and Setters (for accessing and modifying attributes)
     public String getTitle() {
         return title;
     }

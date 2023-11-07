@@ -27,10 +27,8 @@ public class JobPositionTest {
 
     @Test
     public void testIsWithinBudget_False_UpperBoundary() {
-        // Create a job position with a salary range of 50000 to 80000
         JobPosition jobPosition = new JobPosition("Software Engineer", "Job Description", 50000.0, 80000.0, null, "Location");
 
-        // Create an applicant with an expected salary above the job position's budget
         Applicant applicant = new Applicant(null, "City", "Preferred Location", 85000.0, "Pending");
 
         assertFalse(jobPosition.isWithinBudget(applicant));

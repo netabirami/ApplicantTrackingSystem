@@ -33,7 +33,6 @@ public class HRSystem {
         }
     }
 
-    // Method to add an applicant to the system
     public void addApplicant(Applicant applicant) {
         if (applicant != null) {
             applicants.add(applicant);

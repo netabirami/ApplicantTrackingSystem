@@ -45,4 +45,5 @@ public class Applicant {
     public void setStatus(String reviewed) {
         return;
     }
+
 }
