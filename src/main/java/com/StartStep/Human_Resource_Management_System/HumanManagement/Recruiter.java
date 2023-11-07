@@ -43,17 +43,17 @@ public class Recruiter {
             return name;
         }
 
-        public List<JobPosition> getJobPositionsManaged() {
-            return jobPositionsManaged;
-        }
+        //public List<JobPosition> getJobPositionsManaged() {
+           // return jobPositionsManaged;
+        //}
 
-        public Set<String> getSpecializedIndustries() {
-            return specializedIndustries;
-        }
+       // public Set<String> getSpecializedIndustries() {
+            //return specializedIndustries;
+       // }
 
-        public Set<String> getSpecializedRoles() {
-            return specializedRoles;
-        }
+        //public Set<String> getSpecializedRoles() {
+           // return specializedRoles;
+       // }
     }
 
 
